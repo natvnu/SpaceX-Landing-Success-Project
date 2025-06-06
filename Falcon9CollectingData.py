@@ -11,9 +11,7 @@ pd.set_option('display.max_columns', None)
 # Setting this option will print all of the data in a feature
 pd.set_option('display.max_colwidth', None)
 
-
 # 2 predefined methods to help us extract data
-
 # From the rocket column we would like to learn the booster name, so iterate through the 'rocket' col of data dataframe
 # add the id of the rocket to the url and download the dictionary (.json()) named url+rocketid to variable response.
 #without the .json() part response will not be dict with all the data, but simply response status (200 in this case).
@@ -24,8 +22,7 @@ def getBoosterVersion(data):
        if x:
         response = requests.get("https://api.spacexdata.com/v4/rockets/"+str(x)).json()
         BoosterVersion.append(response['name'])
-        
-        
+         
 # From the launchpad we would like to know the name of the launch site being used, the logitude, and the latitude       
 def getLaunchSite(data):
     for x in data['launchpad']:
@@ -33,8 +30,7 @@ def getLaunchSite(data):
             response = requests.get("https://api.spacexdata.com/v4/launchpads/"+str(x)).json()
             LaunchSite.append(response['name'])
             Longitude.append(response['longitude'])
-            Latitude.append(response['latitude'])
-        
+            Latitude.append(response['latitude'])    
 
 #From the payload we would like to learn the mass of the payload and the orbit that it is going to
 def getPayloadData(data):
@@ -43,8 +39,7 @@ def getPayloadData(data):
         response = requests.get('https://api.spacexdata.com/v4/payloads/'+str(x)).json()
         Orbit.append(response['orbit'])
         PayloadMass.append(response['mass_kg'])
-        
-        
+            
 #From cores we would like to learn the outcome of the landing, the type of the landing, number of flights with that core, 
 #whether gridfins were used, whether the core is reused, whether legs were used, the landing pad used, the block of the core
 #which is a number used to seperate version of cores, the number of times this specific core has been reused, 
@@ -69,8 +64,7 @@ def getCoreData(data):
             Legs.append(core['legs'])
             LandingPad.append(core['landpad'])
             
-
-#3 Get data
+#3 Load data
 #spacex_url="https://api.spacexdata.com/v4/launches/past"
 #response=requests.get(spacex_url)
 #chech the response content
@@ -81,8 +75,7 @@ response=requests.get(static_json_url)
 response.status_code #200 means sucess
 data=pd.json_normalize(response.json())
 data
-
-                                
+                            
 # 4 wrangle data                                
 # Lets take a subset of our dataframe keeping only the features we want:rocket, payloads, launchpad, and cores, flight number and date_utc.
 data = data[['rocket','payloads','launchpad','cores','flight_number','date_utc']]
@@ -93,9 +86,8 @@ data
 data = data[data['cores'].map(len)==1]
 data = data[data['payloads'].map(len)==1]
 
-
 '''
-#my way
+#another way
 #create 2 new empty lists multipayloads and multicores to keep the info how many payloads/cores per each row
 #then create 2 new columns ('multipayload' and 'multicores') and fill them with the two lists created above
 #then keep only the rows where both cols have value 1
@@ -123,8 +115,7 @@ data['payloads'] = data['payloads'].map(lambda x : x[0])
 
 # Convert the date_utc to a datetime datatype and then keep only the date
 data['date_utc'] = pd.to_datetime(data['date_utc']).dt.date
-                                
-                                
+                                                     
 # 5 gather additional data and prepare the final dataset
 # Using the methods defined above, we will use columns: rocket, payloads, launchpad, cores to find out the following data
 # Global variables 
@@ -190,6 +181,4 @@ data_falcon9.isnull().sum() #PayloadMass now has 0 null values, LandingPad 26, w
 #export to csv file
 data_falcon9.to_csv('dataset_part_1.csv', index=False)
 #end of code
-
-![API data collection df](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/DataCollectionDF.png?raw=true)
 
