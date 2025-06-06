@@ -25,14 +25,15 @@ Dataset Sources:
   3. dataset_part_1.csv, the result of Falcon9CollectingData also available [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv)
   4. my_data1.db and Spacex.csv, available in this repository
   5. dataset_part_2.csv, the result of Falcon9DataWrangling, also available [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv)
-  6. Dataset provided by IBM Skills Network- spacex_launch_geo.csv, available in this repository
-  7. 
+  6. Dataset provided by IBM Skills Network - spacex_launch_geo.csv, available in this repository
+  7. Dataset provided by IBM Skills Network - spacex_launch_dash.csv, available in this repository
+  8. Datasets provided by IBM Skills Network - dataset_part_2(for Falcon9Machine Learning).csv and dataset_part_3(for Falcon9Machine Learning).csv, available in this repository
 
-Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn, xgboost
+Technologies Used: python, pandas, matplotlib, sklearn, plotly, folium, dash, seaborn
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![Feature_Importances_in_Random_Forest_Regression](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/3_Feature_Importances_in_Random_Forest_Regression.png)
+![First_stage_landing](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/3_Feature_Importances_in_Random_Forest_Regression.png)
 
 ![Regularization_Linear_regression_coefficients](https://raw.githubusercontent.com/natvnu/Machine_Learning/0e4932d49f493e5f633fd70bb80ccc3c65409168/Supervised%20Machine%20Learning%20-%20Regression/4_Regularization_Linear_regression_coefficients.png)
 
