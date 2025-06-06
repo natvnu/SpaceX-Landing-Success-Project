@@ -11,7 +11,6 @@ Technologies Used: python, pandas, numpy
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/landing_1.gif?raw=true)
-
+![Data Wrangling](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/DataWrangling.png?raw=true)
 
 
