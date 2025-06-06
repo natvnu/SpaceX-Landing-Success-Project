@@ -191,3 +191,5 @@ data_falcon9.isnull().sum() #PayloadMass now has 0 null values, LandingPad 26, w
 data_falcon9.to_csv('dataset_part_1.csv', index=False)
 #end of code
 
+![API data collection df](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/DataCollectionDF.png?raw=true)
+
