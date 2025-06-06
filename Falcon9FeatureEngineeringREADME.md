@@ -1,7 +1,7 @@
 # SpaceX-Landing-Success-Project
 
 ## EDA with Visualization and Feature Engineering
-Falcon9FeatureEngineering - visualization of relations between features using matplotlib and seaborn
+Falcon9FeatureEngineering.py - visualization of relations between features using matplotlib and seaborn
 
 Data Sources: 
 dataset_part_2.csv, the result of Falcon9DataWrangling, also available [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv)
