@@ -1,7 +1,7 @@
 # SpaceX-Landing-Success-Project
 
 ## Geospatial data visualization
-Falcon9FoliumGeospatial - Geospatial data visualization in order to gain an insight into the factors that affect the success of the launch
+Falcon9FoliumGeospatial.py - Geospatial data visualization in order to gain an insight into the factors that affect the success of the launch
 
 Data Sources: 
 Dataset provided by IBM Skills Network - spacex_launch_geo.csv, available in this repository
