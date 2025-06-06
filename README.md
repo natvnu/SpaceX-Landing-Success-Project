@@ -11,8 +11,8 @@ Question Space Y wants to answer:
 
 The repository contains files:
   1. Falcon9CollectingData - data collection using API api.spacexdata.com
-  2. Falcon9WebScraping - Comparation of Random Forest and XGBoost modeling performance in predicting house prices in California
-  3. Falcon9DataWrangling - evaluation of the random forest regression models using various evaluation metrics and extraction of feature importances
+  2. Falcon9WebScraping - 
+  3. Falcon9DataWrangling - 
   4. Falcon9SQL
   5. Falcon9FeatureEngineering
   6. Falcon9FoliumGeospatial
@@ -21,7 +21,12 @@ The repository contains files:
      
 Dataset Sources: 
   1. Dataset provided by IBM Skills Network - json file can be found [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json)
-  2. [Wikipwdia - List of Falcon 9 and Falcon Heavy launches](https://en.wikipedia.org/w/index.php?title=List_of_Falcon_9_and_Falcon_Heavy_launches&oldid=1027686922)
+  2. [Wikipedia - List of Falcon 9 and Falcon Heavy launches](https://en.wikipedia.org/w/index.php?title=List_of_Falcon_9_and_Falcon_Heavy_launches&oldid=1027686922)
+  3. dataset_part_1.csv, the result of Falcon9CollectingData also available [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv)
+  4. my_data1.db and Spacex.csv, available in this repository
+  5. dataset_part_2.csv, the result of Falcon9DataWrangling, also available [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_2.csv)
+  6. Dataset provided by IBM Skills Network- spacex_launch_geo.csv, available in this repository
+  7. 
 
 Technologies Used: python, pandas, matplotlib, scikit-learn, plotly, seaborn, xgboost
 
