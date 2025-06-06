@@ -10,7 +10,10 @@ Technologies Used: python, pandas, numpy, matplotlib, sklearn
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/landing_1.gif?raw=true)
+![Landing Success Yearly](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/FeatureEngineering%20-%20Landing%20Success%20Yearly%20Trend.png?raw=true)
 
+![Landing Success Per Orbit](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/FeatureEngineering%20-%20Landing%20Success%20per%20Orbit.png?raw=true)
+
+![Payload Vs Orbit](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/FeatureEngineering%20-%20Payload%20vs%20Orbit%20type.png?raw=true)
 
 
