@@ -1,5 +1,4 @@
 # SpaceX-Landing-Success-Project
-Determining if first stage of Falcon9 will successfully land
 
 ## Project background and context:
 In the modern space race, companies are utilizing cost efficiency through reusability. 
@@ -11,13 +10,13 @@ Question Space Y wants to answer:
 
 The repository contains files:
   1. Falcon9CollectingData - data collection using API api.spacexdata.com
-  2. Falcon9WebScraping - 
-  3. Falcon9DataWrangling - 
-  4. Falcon9SQL
-  5. Falcon9FeatureEngineering
-  6. Falcon9FoliumGeospatial
-  7. Falcon9DASHS
-  8. Falcon9MachineLearningPrediction
+  2. Falcon9WebScraping - web scraping Wikipedia content
+  3. Falcon9DataWrangling - (conversion of categorical non-numerical landing outcomes into numerical labels (1,1,0,…)
+  4. Falcon9SQL - using SQL queries to explore factors such as unique launch sites, total payload mass, the date of the first successful landing, etc... 
+  5. Falcon9FeatureEngineering - visualization of relations between features using matplotlib and seaborn
+  6. Falcon9FoliumGeospatial - Geospatial data visualization in order to gain an insight into the factors that affect the success of the launch
+  7. Falcon9DASHS - quick insights to questions such as which site/payload range/booster version has the highest successful rate, etc..
+  8. Falcon9MachineLearningPrediction - building and testing different classifiers: KNN, SVM, Logistic Regression and Decision Tree to predict the success/failure of landing 
      
 Dataset Sources: 
   1. Dataset provided by IBM Skills Network - json file can be found [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/API_call_spacex_api.json)
