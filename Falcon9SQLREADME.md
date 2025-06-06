@@ -1,7 +1,7 @@
 # SpaceX-Landing-Success-Project
 
 ## SQL Exploratory Data Analysis
-Falcon9SQL - using SQL queries to explore factors such as unique launch sites, total payload mass, the date of the first successful landing, etc... 
+Falcon9SQL.py - using SQL queries to explore factors such as unique launch sites, total payload mass, the date of the first successful landing, etc... 
        
 Data Sources: 
 my_data1.db and Spacex.csv, available in this repository
