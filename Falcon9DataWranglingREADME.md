@@ -2,7 +2,7 @@
 
 ## Falcon9 Data Wrangling
 
-Falcon9DataWrangling - conversion of categorical non-numerical landing outcomes into numerical labels (1,1,0,…)
+Falcon9DataWrangling.py - conversion of categorical non-numerical landing outcomes into numerical labels (1,1,0,…)
 
 Data Sources: 
 dataset_part_1.csv, the result of Falcon9CollectingData also available [here.](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/dataset_part_1.csv)
