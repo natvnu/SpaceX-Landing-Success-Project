@@ -1,5 +1,5 @@
 #Falcon9CollectingData.ipynb - collect data and make sure it is received in the correct format from an API
-
+#Beginning of code
 #1 import libraries
 import requests
 import pandas as pd
@@ -189,5 +189,5 @@ data_falcon9.isnull().sum() #PayloadMass now has 0 null values, LandingPad 26, w
 
 #export to csv file
 data_falcon9.to_csv('dataset_part_1.csv', index=False)
-
+#end of code
 
