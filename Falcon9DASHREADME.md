@@ -9,7 +9,9 @@ Technologies Used: python, pandas, dash, plotly
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/landing_1.gif?raw=true)
+![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/dash0.png?raw=true)
 
+![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/dash1.png?raw=true)
 
+![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/dash2.png?raw=true)
 
