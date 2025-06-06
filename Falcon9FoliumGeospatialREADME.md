@@ -10,7 +10,7 @@ Technologies Used: python, pandas, folium
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/landing_1.gif?raw=true)
+![Folium Cluster Markers](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/map1.png?raw=true)
 
 
 
