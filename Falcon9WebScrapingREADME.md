@@ -10,7 +10,6 @@ Technologies Used: python, pandas, requests, BeautifulSoup
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep dataset files in the same folder.
 
-![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/landing_1.gif?raw=true)
-
+![Web Scraping](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/WebScraping.png?raw=true)
 
 
