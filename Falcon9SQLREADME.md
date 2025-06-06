@@ -10,7 +10,6 @@ Technologies Used: python, pandas, sqlalchemy, ipython-sql
 
 Installation: copy and run the code in Jupyter Notebooks or other Python editor of choice. Keep data files in the same folder.
 
-![First_stage_landing](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/landing_1.gif?raw=true)
-
+![SQL EDA](https://github.com/natvnu/SpaceX-Landing-Success-Project/blob/main/SQL.png?raw=true)
 
 
