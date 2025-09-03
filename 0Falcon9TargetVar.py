@@ -34,4 +34,4 @@ df['Class']=landing_class
 df=df.drop('Outcome',axis=1)
 
 #export pdf to csv
-df.to_csv("0Falcon9EDA.csv", index=False)
+df.to_csv("0Falcon9TargetVar.csv", index=False)
